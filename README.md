@@ -1,5 +1,3 @@
-# AdBlock DNS
-
 ## 1. Setup Adguard Home for Linux Server
 
 ```Text
