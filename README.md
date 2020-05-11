@@ -33,8 +33,6 @@ Please complete installation with default settings
 
 - HTTP DNS: https://{YOUR-DOMAIN}/dns-query *
 
-* Need SSL Setup
-
 **c) Set time zone**
 
 sudo dpkg-reconfigure tzdata
@@ -55,13 +53,19 @@ crontab -e
 
 **a) Default List (Recommended):**
 
+```Text
+
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 
 https://adaway.org/hosts.txt
 
 https://www.malwaredomainlist.com/hostslist/hosts.txt
 
+```
+
 **b) AdBlock Plus List (VIP Official List - Recommended):**
+
+```Text
 
 https://cdn.adblockcdn.com/filters/adblock_custom.txt
 
@@ -85,7 +89,11 @@ https://easylist-downloads.adblockplus.org/easylist-cookie.txt
 
 https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt
 
+```
+
 **c) AdGuard Chromium List (VIP Official List - Recommended):**
+
+```Text
 
 https://filters.adtidy.org/extension/chromium/filters/1.txt
 
@@ -131,13 +139,21 @@ https://raw.githubusercontent.com/liamja/Prebake/master/obtrusive.txt
 
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 
+```
+
 *** The 5 and 10 filters I left out because it was the parasite that allowed advertising and test filters. Please do not add.
 
 **d)  OISD.NL List (High Recommended):**
 
+```Text
+
 https://dbl.oisd.nl/
 
+```
+
 **e) FANBOY Lists (Optional):**
+
+```Text
 
 https://fanboy.co.nz/enhancedstats.txt
 
@@ -147,13 +163,21 @@ https://www.fanboy.co.nz/fanboy-problematic-sites.txt
 
 https://easylist.to/easylist/fanboy-social.txt
 
+```
+
 **f) VietNam Lists (Optional):**
+
+```Text
 
 https://abpvn.com/android/abpvn.txt
 
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain.txt
 
+```
+
 **g) Other Lists by AdGuard (Optional):**
+
+```Text
 
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
 
@@ -195,7 +219,11 @@ https://raw.githubusercontent.com/deletescape/noads/master/lists/add-switzerland
 
 https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
 
+```
+
 **h) Other Lists (Optional):**
+
+```Text
 
 https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt
 
@@ -223,13 +251,25 @@ https://raw.githubusercontent.com/HenningVanRaumle/pihole-ytadblock/master/googl
 
 https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt
 
+```
+
 
 ## 4. Allow Lists:
+
+```Text
 
 https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exclusions.txt
 
 https://raw.githubusercontent.com/minhvip20956/AdBlockList/master/list/allow.txt
 
+```
+
 ## 5. DNS Rewrite:
 
-172.217.1.14	manifest.googlevideo.com (https://www.reddit.com/r/pihole/comments/9w5swx/i_think_ive_managed_to_block_youtube_ads_with/)
+```Text
+
+172.217.1.14	manifest.googlevideo.com
+
+```
+
+(https://www.reddit.com/r/pihole/comments/9w5swx/i_think_ive_managed_to_block_youtube_ads_with/)
