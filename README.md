@@ -54,13 +54,9 @@ crontab -e
 **a) Default List (Recommended):**
 
 ```Text
-
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-
 https://adaway.org/hosts.txt
-
 https://www.malwaredomainlist.com/hostslist/hosts.txt
-
 ```
 
 **b) AdBlock Plus List (VIP Official List - Recommended):**
