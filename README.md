@@ -2,15 +2,15 @@
 
 ## 1. Setup Adguard Home for Linux Server
 
-sudo apt install wget -y && wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_amd64.tar.gz
-
-tar -xvf AdGuardHome_linux_amd64.tar.gz
-
-rm AdGuardHome_linux_amd64.tar.gz
-
-cd /home/{User}/AdGuardHome/
-
-sudo ./AdGuardHome -s install
+> sudo apt install wget -y && wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_amd64.tar.gz
+>
+> tar -xvf AdGuardHome_linux_amd64.tar.gz
+>
+> rm AdGuardHome_linux_amd64.tar.gz
+>
+> cd /home/{User}/AdGuardHome/
+> 
+> sudo ./AdGuardHome -s install
 
 ## 2. Setup AdGuard Home Basic
 
