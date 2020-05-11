@@ -29,9 +29,9 @@ Please complete installation with default settings
 
 - DNS Port: 53 (TCP and UDP)
 
-- TLS DNS: {YOUR-DOMAIN}:853 (TCP) *
+- TLS DNS: {YOUR-DOMAIN}:853 (TCP)
 
-- HTTP DNS: https://{YOUR-DOMAIN}/dns-query *
+- HTTP DNS: https://{YOUR-DOMAIN}/dns-query
 
 **c) Set time zone**
 
