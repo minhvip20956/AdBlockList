@@ -12,6 +12,7 @@ cd /home/{User}/AdGuardHome/
 sudo ./AdGuardHome -s install
 
 ```
+Replace {User} with the personal directory name of the account you own
 
 ## 2. Setup AdGuard Home Basic
 
