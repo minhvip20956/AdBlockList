@@ -1,4 +1,4 @@
-## 1. Setup Adguard Home for Linux Server
+## 1. Setup Adguard Home for Linux x64 Server
 
 ```Text
 sudo apt install wget -y && wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_amd64.tar.gz
@@ -10,7 +10,6 @@ rm AdGuardHome_linux_amd64.tar.gz
 cd /home/{User}/AdGuardHome/
 
 sudo ./AdGuardHome -s install
-
 ```
 Replace {User} with the personal directory name of the account you own
 
