@@ -50,7 +50,7 @@ crontab -e
 
 ## 3. Block Filters List
 
-a) Default List (Recommended):
+**a) Default List (Recommended):**
 
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 
@@ -58,7 +58,7 @@ https://adaway.org/hosts.txt
 
 https://www.malwaredomainlist.com/hostslist/hosts.txt
 
-b) AdBlock Plus List (VIP Official List - Recommended):
+**b) AdBlock Plus List (VIP Official List - Recommended):**
 
 https://cdn.adblockcdn.com/filters/adblock_custom.txt
 
@@ -82,7 +82,7 @@ https://easylist-downloads.adblockplus.org/easylist-cookie.txt
 
 https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt
 
-c) AdGuard Chromium List (VIP Official List - Recommended):
+**c) AdGuard Chromium List (VIP Official List - Recommended):**
 
 https://filters.adtidy.org/extension/chromium/filters/1.txt
 
@@ -130,11 +130,11 @@ https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 
 *** The 5 and 10 filters I left out because it was the parasite that allowed advertising and test filters. Please do not add.
 
-d)  OISD.NL List (High Recommended):
+**d)  OISD.NL List (High Recommended):**
 
 https://dbl.oisd.nl/
 
-e) FANBOY Lists (Optional):
+**e) FANBOY Lists (Optional):**
 
 https://fanboy.co.nz/enhancedstats.txt
 
@@ -144,13 +144,13 @@ https://www.fanboy.co.nz/fanboy-problematic-sites.txt
 
 https://easylist.to/easylist/fanboy-social.txt
 
-f) VietNam Lists (Optional):
+**f) VietNam Lists (Optional):**
 
 https://abpvn.com/android/abpvn.txt
 
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain.txt
 
-g) Other Lists by AdGuard (Optional):
+**g) Other Lists by AdGuard (Optional):**
 
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
 
@@ -192,7 +192,7 @@ https://raw.githubusercontent.com/deletescape/noads/master/lists/add-switzerland
 
 https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
 
-h) Other Lists (Optional):
+**h) Other Lists (Optional):**
 
 https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt
 
