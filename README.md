@@ -3,9 +3,13 @@
 ## 1. Setup Adguard Home for Linux Server
 
 sudo apt install wget -y && wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_amd64.tar.gz
+
 tar -xvf AdGuardHome_linux_amd64.tar.gz
+
 rm AdGuardHome_linux_amd64.tar.gz
+
 cd /home/{User}/AdGuardHome/
+
 sudo ./AdGuardHome -s install
 
 ## 2. Setup AdGuard Home Basic
@@ -17,11 +21,16 @@ Please complete installation with default settings
 **b) Open Port:**
 
 - http port: 80
+
 - https port: 443
+
 - DNS Port: 53 (TCP and UDP)
-- TLS DNS: {YOUR-DOMAIN}:853 (TCP) ***
-- HTTP DNS: https://{YOUR-DOMAIN}/dns-query ***
-*** Need SSL Setup
+
+- TLS DNS: {YOUR-DOMAIN}:853 (TCP) *
+
+- HTTP DNS: https://{YOUR-DOMAIN}/dns-query *
+
+* Need SSL Setup
 
 **c) Set time zone**
 
