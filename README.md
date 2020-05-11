@@ -1,30 +1,38 @@
 # AdBlock DNS
 
-## 1. Setup Adguard Home Ubuntu Server
+## 1. Setup Adguard Home for Linux Server
 
-===============================================================================================================
 sudo apt install wget -y && wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_amd64.tar.gz
 tar -xvf AdGuardHome_linux_amd64.tar.gz
 rm AdGuardHome_linux_amd64.tar.gz
-cd /home/User/AdGuardHome/
+cd /home/{User}/AdGuardHome/
 sudo ./AdGuardHome -s install
-===============================================================================================================
-sudo dpkg-reconfigure tzdata
-crontab -e
-
-50 4 * * * apt update -y && apt upgrade -y && apt autoremove -y && reboot
-===============================================================================================================
 
 ## 2. Setup AdGuard Home Basic
 
-a) Finish Setup: http://{YOUR-IP-ADDRESS}:3000
-b) Open Port:
+**a) Finish Setup: http://{YOUR-IP-ADDRESS}:3000**
+Please complete installation with default settings
+
+**b) Open Port:**
 - http port: 80
 - https port: 443
 - DNS Port: 53 (TCP and UDP)
 - TLS DNS: {YOUR-DOMAIN}:853 (TCP) ***
 - HTTP DNS: https://{YOUR-DOMAIN}/dns-query ***
 *** Need SSL Setup
+
+**c) Set time zone**
+sudo dpkg-reconfigure tzdata
+
+**d) Set up SSL**
+sudo apt install certbot -y
+certbot -d domain.ltd --manual --preferred-challenges dns certonly
+
+**e) Crontab**
+crontab -e
+
+50 4 * * * apt update -y && apt upgrade -y && apt autoremove -y && reboot
+00 00 * * * certbot renew --manual-auth-hook /etc/letsencrypt/renewal-hooks/pre/dnsauthenticator.sh
 
 ## 3. Block Filters List
 
