@@ -44,8 +44,10 @@ certbot -d domain.ltd --manual --preferred-challenges dns certonly
 
 crontab -e
 
+```Text
 50 4 * * * apt update -y && apt upgrade -y && apt autoremove -y && reboot
 00 00 * * * certbot renew --manual-auth-hook /etc/letsencrypt/renewal-hooks/pre/dnsauthenticator.sh
+```
 
 ## 3. Block Filters List
 
