@@ -73,6 +73,19 @@ https://easylist-downloads.adblockplus.org/malwaredomains_full.txt
 https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
 https://easylist-downloads.adblockplus.org/easylist-cookie.txt
 https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt
+https://easylist.to/easylistgermany/easylistgermany.txt
+https://easylist-downloads.adblockplus.org/easylistitaly.txt
+https://easylist-downloads.adblockplus.org/easylistdutch.txt
+https://easylist-downloads.adblockplus.org/liste_fr.txt
+https://easylist-downloads.adblockplus.org/easylistchina.txt
+https://stanev.org/abp/adblock_bg.txt
+https://raw.githubusercontent.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt
+https://easylist-downloads.adblockplus.org/Liste_AR.txt
+https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt
+https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt
+https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt
+http://margevicius.lt/easylistlithuania.txt
+https://easylist-downloads.adblockplus.org/easyprivacy.tpl
 ```
 
 **c) AdGuard Chromium List (VIP Official List - Recommended):**
