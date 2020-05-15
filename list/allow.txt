@@ -12,7 +12,6 @@
 @@||login.live.com^
 @@||mozilla.org^
 @@||adguard.com^
-@@||redirector.googlevideo.com^
 @@||github.io^
 @@||xnxx-cdn.com^
 @@||xvideos.com^
