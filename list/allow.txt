@@ -60,4 +60,4 @@
 @@||ip2location.com^
 @@||vi-vn.facebook.com^
 @@||freedownloadmanager.org^
-
+@@||za.zalo.me^
