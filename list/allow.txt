@@ -1,5 +1,6 @@
+@@||ladi.me^
+@@||showcase.ladi.me^
 @@||builder.ladipage.com^
-@@||^.ladipage.vn^
 @@||ladipage.vn^
 @@||bkav.com.vn^
 @@||googleapis.com^
