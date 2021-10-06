@@ -18,9 +18,6 @@
 @@||mozilla.org^
 @@||adguard.com^
 @@||github.io^
-@@||xnxx-cdn.com^
-@@||xvideos.com^
-@@||xnxx.com^
 @@||kaspersky-labs.com^
 @@||gleam.io^
 @@||spotify.com^
