@@ -83,3 +83,11 @@
 @@||shopee.tw^
 @@||shopee.vn^
 @@||shp.ee^
+@@||lazada.co.id^
+@@||lazada.com^
+@@||lazada.com.my^
+@@||lazada.com.ph^
+@@||lazada.co.th^
+@@||lazada.sg^
+@@||lazada.vn^
+@@||slatic.net^
