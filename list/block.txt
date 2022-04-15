@@ -1,3 +1,2 @@
 ||5hz.org^
 # Block Root Domain
-||*.cn^
